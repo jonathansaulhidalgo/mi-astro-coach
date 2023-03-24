@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* 
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Permanent Marker', cursive;
+*/
+body{
+    color: #001122;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+.nav-link{
+    color: #001122;
+}
+.nav-link:hover{
+    color: #FCC522;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-transform: lowercase;
+    font-weight: bold;
+    padding: 5px;
+}
+nav i{
+    color: #001122;
+}
+nav i:hover{
+    color: #FCC522;
+}
+.zodiaco a{
+    color: #001122;
+    font-weight: bold;
+}
+.zodiaco a:hover{
+    color: #FCC522;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.card{
+    border: none;
+}
+.card-title{
+    font-size: 22px;
+}
+.hero{
+    background: rgb(0,17,34);
+    color: white;
+}
+.hero a{
+    color: white;
+    text-decoration: none;
+}
+.hero a:hover{
+    color: #FCC522;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: bold;
+}
+.villian img{
+    border: solid #001122;
+}
+@media (max-width: 630px){
+    .zodiac{
+        overflow: scroll;
+}
+}
