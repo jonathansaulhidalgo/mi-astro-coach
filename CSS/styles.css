@@ -43,6 +43,13 @@ nav i:hover{
 .card-title{
     font-size: 22px;
 }
+svg{
+    width:100px;
+    height:100px;
+}
+svg:hover{
+    stroke: #FCC522;
+}
 .hero{
     background: rgb(0,17,34);
     color: white;
